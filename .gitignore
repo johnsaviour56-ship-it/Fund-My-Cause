@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+*.js
+*.d.ts
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.monitoring
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+error.log
+combined.log
+incident-response.log
+pagerduty.log
+
+# Monitoring
+prometheus-data/
+grafana-data/
+alertmanager-data/
+traces.json
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+.tmp/
+
+# Test results
+test-results.json
